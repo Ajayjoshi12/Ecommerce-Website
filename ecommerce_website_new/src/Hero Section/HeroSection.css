@@ -1,0 +1,11 @@
+.btn-hero{
+    background-color: #6354f3 !important;
+    border-color: #6354f3 !important;
+    text-transform: uppercase;
+}
+
+@media(max-width: 768px){
+    .res-padd{
+        padding-bottom: 50px;
+    }
+}

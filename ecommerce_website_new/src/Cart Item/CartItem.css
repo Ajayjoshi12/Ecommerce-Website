@@ -1,0 +1,47 @@
+/* .grid {
+    display: grid;
+    gap: 9rem;
+} */
+.grid-five-column {
+    grid-template-columns: repeat(4, 1fr) 0.3fr;
+    text-align: center;
+    align-items: center;
+}
+
+.cart-image--name {
+    align-items: center;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 0.4fr 1fr;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.img-cart {
+    max-width: 5rem;
+    height: 5rem;
+    object-fit: contain;
+    color: transparent;
+}
+
+.color-div {
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.color-style {
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+}
+.amount-toggle{
+    margin-top: 0px;
+    justify-content: center;
+}
+.remove_icon{
+    font-size: 1.6rem;
+    color: #e74c3c;
+    cursor: pointer;
+}

@@ -1,0 +1,48 @@
+.main-truck{
+    background-color: #f6f8fa;
+    text-align: center;
+    padding: 80px 50px;
+    border-radius: 10px;
+}
+.icon-main{
+    font-size: 24px;
+    background-color: #fff;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+}
+.text-services{
+    font-size: 17px;
+}
+.main-truck2{
+    background-color: #f6f8fa;
+    text-align: center;
+    border-radius: 10px;
+    padding: 28px 20px;
+}
+.text-paddleft{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.padd-top{
+    padding-top: 15px;
+}
+@media(max-width: 1024px){
+    .main-truck2{
+        padding: 34px 20px;
+    }
+}
+
+@media(max-width: 768px){
+    .main-truck{
+        margin-bottom: 30px;
+    }
+    .mar-service{
+        margin-top: 30px;
+    }
+}

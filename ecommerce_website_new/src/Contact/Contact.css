@@ -1,0 +1,11 @@
+.heading-contact{
+    color: #1b1a19;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.btn-submit{
+    background-color: #6354f3 !important;
+    border-color: #6354f3 !important;
+    text-transform: uppercase;
+}

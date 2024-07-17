@@ -1,0 +1,18 @@
+.amount-style{
+    font-size: 1.4rem;  
+
+}
+.amount-toggle{
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.4rem;
+    gap: 1.5rem;
+}
+.btn-toggle{
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}

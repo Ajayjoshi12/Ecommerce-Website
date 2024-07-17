@@ -1,0 +1,21 @@
+.image-main{
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    gap: 1rem;
+}
+.grid{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}
+.grid-four-column {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+}
+.main-screen{
+    display: grid;
+    place-items: center;
+    order: 1;
+}

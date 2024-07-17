@@ -1,0 +1,60 @@
+.nav1{
+    color: #7a7b7b; 
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 0px 20px !important;
+}
+.nav1.active{
+    color: #6354f3;
+}
+.cart-trolley-main{
+    position: relative;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.cart-trolley{
+    position: relative;
+    font-size: 22px;
+}
+.cart-total{
+    position: absolute;
+    background-color: #6354f3;
+    color: #000;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    top: -14px;
+    left: 65%;
+    text-align: center;
+}
+
+@media(max-width:768px){
+    /* .nt-btn{
+        background-color: #7a7b7b;
+    } */
+    .nav1{
+        padding: 0px 0px !important;
+    }
+    .cart-total{
+        left: 2%;
+    }
+    .cart-trolley-main{
+        margin-top: 13px;
+    }
+    .navbar-toggler-icon{
+        padding: 4px 0px;
+        font-size: 24px;
+    }
+    .navbar-toggler{
+        padding: 0px;
+    }
+}
+
+@media(max-width: 480px){
+    
+    .row{
+        margin: auto !important;
+    }
+    
+}

@@ -1,0 +1,11 @@
+.head-error{
+    font-size: 10rem;
+}
+.sub-error{
+    font-size: 3.2rem;
+}
+.btn-error{
+    background-color: #6354f3 !important;
+    border-color: #6354f3 !important;
+    text-transform: uppercase;
+}
